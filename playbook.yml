@@ -1,0 +1,7 @@
+---
+- name: Exemple de playbook avec un rôle Ansible
+  hosts: localhost
+  become: yes
+
+  roles:
+    - install_docker_compose
